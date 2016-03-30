@@ -22,7 +22,7 @@ A instalação é bem simples: baixe a versão _stable_ adequada a sua arquitetu
 
 O `npm` é o gerenciador de pacotes do `Node`. É instalado automaticamente junto com o _runtime_.
 
-Assim como qualquer outro gerenciador de pacotes, é lento. Se o `Maven` baixa metada da internet, não se preocupe: o `npm` vai baixar a outra.
+Assim como qualquer outro gerenciador de pacotes, é lento. Se o `Maven` baixa metade da internet, não se preocupe: o `npm` vai baixar a outra.
 
 Se preferir, utilize como registro uma instância do [local-npm](https://github.com/nolanlawson/local-npm) disponível em `http://mp1522:5080`:
 
