@@ -13,13 +13,13 @@ Os cookies são informações enviadas do cliente (um browser) para um o servido
 
 ### Origem do cookie
 
-Os cookies são considerados de primeira pessoa quando as informações são enviadas para o mesmo servidor de rede que disponibiliza e hospeda o site.
+Os cookies são considerados primários quando as informações são enviadas para o mesmo servidor de rede que disponibiliza e hospeda o site.
 
 Exemplo: quando visitamos **www12.senado.gov.br** o browser recebe um cookie de nome `__ac`. A partir daí, toda requisição feita a uma página no domínio **www12.senado.gov.br**, e somente neste domínio, enviará de volta para o servidor o valor desse cookie.
 
-Já os cookies de terceira pessoa, enviam informações para um servidor distinto daquele que foi visitado. Exemplo: quando visitamos **g1.globo.com**, algumas informações coletadas durante esta sessão são enviadas para o **azure-2mobile.netdna-ssl.com**.
+Já os cookies de terceiros, enviam informações para um servidor distinto daquele que foi visitado. Exemplo: quando visitamos **g1.globo.com**, algumas informações coletadas durante esta sessão são enviadas para o **azure-2mobile.netdna-ssl.com**.
 
-> O administrador do site não possui controle dos dados transmitidos pelos cookies de terceira pessoa, tampouco possui conhecimento sobre como esses dados são coletados ou utilizados.
+> O administrador do site não possui controle dos dados transmitidos pelos cookies de terceiros, tampouco possui conhecimento sobre como esses dados são coletados ou utilizados.
 
 ## DisplayFeatures
 
@@ -30,13 +30,13 @@ O Google Anlytics é um sistema que permite a coleta de dados estatísticos rela
 - o dispositivo utilizado
 - como o visitante chegou ao site
 
-Os cookies armazenados nessa situação são de primeira pessoa (são enviados apenas para o servidor que hospeda o site habilitado).
+Os cookies armazenados nessa situação são primários (são enviados apenas para o servidor que hospeda o site habilitado).
 
 Além das métricas de tráfego, o Google Analytics também permite também a coleta de informações demográficas e de informações de interesse dos visitantes de um site habilitado. Este recurso é chamado de _DisplayFeatures_.
 
-Com o _DisplayFeatures_ habilitado, ao invés dos dados transitarem pela rede do Analytics, eles serão transmitidos pela rede de publicidade do Google, o DoubleClick (via cookies de terceira pessoa).
+Com o _DisplayFeatures_ habilitado, ao invés dos dados transitarem pela rede do Analytics, eles serão transmitidos pela rede de publicidade do Google, o DoubleClick (via cookies de terceiros).
 
-Para aderir ao _DisplayFeatures_, o Google exige que seja notificado aos seus usuários (i) quais os recursos de publicidade do Google estão em uso, (ii) como os cookies de primeira pessoa e os cookies de terceira pessoa são utilizados, e (iii) como os visitantes podem desabilitar o rastreio de comportamento durante as sessões no site habilitado (opt-out).
+Para aderir ao _DisplayFeatures_, o Google exige que seja notificado aos seus usuários (i) quais os recursos de publicidade do Google estão em uso, (ii) como os cookies primários e os cookies de terceiros são utilizados, e (iii) como os visitantes podem desabilitar o rastreio de comportamento durante as sessões no site habilitado (opt-out).
 
 Além da notificação, também é exigido que não haja cruzamento de informações que possam identificar pessoalmente um visitante com informações coletadas pelo _DisplayFeatures_, a menos que o visitante _expressamente_ concorde com a coleta (opt-in).
 
