@@ -8,6 +8,7 @@ description:         ''
 url:                 https://fabianonunes.github.io
 baseurl:             ''
 paginate:            5
+highlighter:         rouge
 
 author:
   name:              Fabiano Nunes
