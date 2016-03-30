@@ -1,4 +1,8 @@
-# mosaaaico
+---
+published: true
+title: mosaaaico
+layout: post
+---
 
 ## Windows
 
@@ -12,7 +16,7 @@ Em vez do `git-bash`, recomendo o terminal [cmder](http://cmder.net). Baixe a ve
 
 Da mesma forma que o `Java` precisa da JRE; o `C#`, do .Net CLR; e o `python` do CPython; o `javascript` também exige um runtime: o [Node.js](http://nodejs.org).
 
-A instalação é bem simples: baixe a versão _stable_ adequada a sua arquitetura (32 ou 64 bits) em https://nodejs.org/en/download/stable/.
+A instalação é bem simples: baixe a versão _stable_ adequada a sua arquitetura (32 ou 64 bits) em [https://nodejs.org/en/download/stable/](https://nodejs.org/en/download/stable/).
 
 #### npm
 
@@ -27,6 +31,7 @@ npm set registry http://mp1522:5080
 ```
 
 Para reverter:
+
 ```
 npm set registry https://registry.npmjs.org
 ```
@@ -41,7 +46,7 @@ Só tem uma coisa pior que estar atrás de um proxy: estar atrás de um proxy **
 
 É a vida.
 
-Vamos lá. Execute (win + R) `SystemPropertiesAdvanced`. Em _Variáveis de Sistema_, adicione as variáveis de sistema HTTP_PROXY e HTTPS_PROXY.
+Execute (win + R) `SystemPropertiesAdvanced`. Em _Variáveis de Sistema_, adicione as variáveis de sistema HTTP_PROXY e HTTPS_PROXY.
 
 Se o teu proxy é autenticado, ele precisa estar na forma `http://user:password@server:port`. Mas calma, talvez você não precise colocar a **sua** senha ali. Veja se existe alguma conta de desenvolvimento disponível.
 
@@ -54,12 +59,14 @@ O `grunt` é uma ferramenta de build. É como se fosse um `make`, um `ant`, um `
 
 Já o `yo` ([Yeoman](http://yeoman.io)) é um gerador de projetos. Ele monta a estrutura de arquivos e diretórios de acordo com um template. É análogo aos _archetypes_ do `Maven` ou o `paster` do python.
 
-Para instalar o `grunt`, o `yo` e o template do `mosaaaico`, execute `npm -g install yo grunt-cli generator-mosaaaico`
+Para instalar o `grunt`, o `yo` e o template do `mosaaaico`, execute:
+
+```
+npm -g install yo grunt-cli generator-mosaaaico
+```
 
 
 ## crie um novo projeto
-
-Com os pré-requisitos instalados, crie um diretório novo execute:
 
 ```bash
 mkdir meu_projeto_novo
