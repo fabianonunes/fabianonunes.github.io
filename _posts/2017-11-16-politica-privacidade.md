@@ -1,4 +1,8 @@
-# Política de Privacidade
+---
+published: true
+title: Política de Privacidade
+layout: post
+---
 
 > As informações fornecidas no momento do cadastro serão armazenadas nos bancos de dados do Senado Federal.
 
